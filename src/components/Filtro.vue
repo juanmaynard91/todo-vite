@@ -19,5 +19,4 @@ const filtrar = (e) => {
 </script>
 
 <style>
-
 </style>

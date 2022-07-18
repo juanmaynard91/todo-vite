@@ -58,5 +58,4 @@ const completado = (id) => {
   margin-top: 1rem;
 }
 
-
 </style>

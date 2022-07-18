@@ -39,7 +39,7 @@ watchEffect(() => {
   font-family: "Bebas Neue", cursive;
   font-family: "Roboto", sans-serif;
   text-align: center;
-  background: linear-gradient(to right, #00416a, #799f0c);
+  background: linear-gradient(to right, #11998e, #38ef7d);
   background-size: 200% 200%; /* para que ande la animacion tengo que agregarle el tamaña a la app */
   animation: bg-animado 5s linear infinite alternate;
 }
@@ -53,9 +53,9 @@ watchEffect(() => {
   }
 }
 
-@media (max-width: 375px) {
+@media screen and (height: 412px) {
   #app {
-    height: 160vh;
+    height: 200vh;
   }
 }
 </style>

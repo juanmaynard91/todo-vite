@@ -94,7 +94,7 @@ provide("estado", estado);*/
 <style scoped>
 .title {
   color: white;
-  padding-top: 12px;
+  padding-top: 30px;
   text-transform: uppercase;
   margin-bottom: 1rem;
 }
