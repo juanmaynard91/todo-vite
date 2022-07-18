@@ -1,7 +1,5 @@
-# Vue 3 + Vite
+DESCIPCION: Aplicacion Lista de Tareas hecho con Vue Vite
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+LINK: [https://luxury-torte-7889ab.netlify.app](https://lista-tareas-vue-vite.netlify.app)
 
-## Recommended IDE Setup
-
-- [VS Code](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar)
+![lista-tareas](https://user-images.githubusercontent.com/74424452/172666313-5f02a43d-6d8c-41d1-b182-5efa42a616ee.png)
