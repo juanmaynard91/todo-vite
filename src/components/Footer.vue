@@ -11,7 +11,7 @@ import { computed, inject } from "vue";
 const tareas = inject("tareas");
 
 const contar = computed(() => {
-  // computed SIEMPRE RETORNA YYYYYYYY NO SON FUNCIONES ASI QUE NO LO PUEDO USAR COMO BOTON
+  // computed SIEMPRE RETORNA YYY NO SON FUNCIONES ASI QUE NO LO PUEDO USAR COMO BOTON
   return tareas.value.filter((el) => el.estado === false).length;
 });
 

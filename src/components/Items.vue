@@ -17,20 +17,10 @@ defineProps({
   //required: true, //LO COMENTO SINO TIRA ERROR Y ADEMAS NO HACE FALTA NO ES COMO LOS PROPS DE ANTES
 });
 
-/*const emit = defineEmits(["emitEliminado", "emitCompletado"]); // PARA QUE FUNCIONE EL EMIT LO TUVE QUE DECLARAR
-
-const eliminar = (id) => {
-  emit("emitEliminado", id);
-};
-
-const completado = (id) => {
-  emit("emitCompletado", id);
-};*/
-
 const tareas = inject("tareas"); 
 
 const eliminar = (id) => {
-  tareas.value = tareas.value.filter((el) => el.id !== id);
+  tareas.value = tareas.value.filter((el) => el.id !== id);// SI PONGO QUE SEA IGUAL BORRA TODO MENOS LA TAREA QUE YO CLIQUEO
 };
 
 const completado = (id) => {
