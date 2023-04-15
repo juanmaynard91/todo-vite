@@ -1,4 +1,4 @@
-DESCIPCION: Aplicacion Lista de Tareas hecho con Vue Vite
+DESCIPCION: Aplicacion Lista de Tareas hecho con Vue Vite donde utizo transiciones, fondo animado y local storage.
 
 LINK: [https://luxury-torte-7889ab.netlify.app](https://lista-tareas-vue-vite.netlify.app)
 
